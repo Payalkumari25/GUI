@@ -8,7 +8,7 @@ root.title("Images and Icons")
 #Icons
 #root.iconbitmap("rose.ico")
 
-img = ImageTk.PhotoImage(Image.open(*"D:/Tkinter/images/pink.png"))
+img = ImageTk.PhotoImage(Image.open(r"D:/Tkinter/images/pink.png"))
 my_label = Label(image=img)
 my_label.pack()
 
